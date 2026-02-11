@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poyokuma-Lab | スマートフォンアプリ開発</title>
+  <meta name="description" content="Poyokuma-Labは、使いやすさとデザインにこだわったスマートフォンアプリを企画・開発しています。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="header__logo">
+        <img src="logo.png" alt="Poyokuma-Lab" class="header__logo-img">
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="#about" class="nav__link">About</a>
+        <a href="#service" class="nav__link">Service</a>
+        <a href="#philosophy" class="nav__link">Philosophy</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="container hero__inner">
+      <p class="hero__sub">Smartphone App Development</p>
+      <h1 class="hero__title">アイデアを、<br>手のひらに。</h1>
+      <p class="hero__desc">Poyokuma-Labは、日常をちょっと便利に、ちょっと楽しくする<br class="pc-only">スマートフォンアプリを企画・開発しています。</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <p class="section__label">About</p>
+      <h2 class="section__title">Poyokuma-Labについて</h2>
+      <div class="about__grid">
+        <div class="about__text">
+          <p>Poyokuma-Labは、スマートフォンアプリの企画・設計・開発を行う個人事業です。</p>
+          <p>「使う人の目線」を大切にしながら、シンプルで直感的なアプリづくりを心がけています。個人だからこそできる、きめ細やかな開発と柔軟な対応が強みです。</p>
+        </div>
+        <div class="about__info">
+          <table class="info-table">
+            <tr>
+              <th>屋号</th>
+              <td>Poyokuma-Lab</td>
+            </tr>
+            <tr>
+              <th>事業形態</th>
+              <td>個人事業</td>
+            </tr>
+            <tr>
+              <th>事業内容</th>
+              <td>スマートフォンアプリの企画・開発・運営</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service -->
+  <section class="section section--gray" id="service">
+    <div class="container">
+      <p class="section__label">Service</p>
+      <h2 class="section__title">事業内容</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="14" y="4" width="20" height="40" rx="3" stroke="currentColor" stroke-width="2.5"/>
+              <line x1="20" y1="8" x2="28" y2="8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="24" cy="38" r="2" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3 class="card__title">スマホアプリ開発</h3>
+          <p class="card__desc">iOS / Androidに対応したスマートフォンアプリを企画段階から開発・リリースまで一貫して手がけます。</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6" y="10" width="36" height="24" rx="3" stroke="currentColor" stroke-width="2.5"/>
+              <polyline points="14,22 20,17 26,22 32,17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="16" y1="38" x2="32" y2="38" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="card__title">UI/UXデザイン</h3>
+          <p class="card__desc">使いやすさと見た目の美しさを両立したUI/UXデザインで、ユーザーに愛されるアプリを目指します。</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M24 12v12l8 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="card__title">運用・アップデート</h3>
+          <p class="card__desc">リリース後もユーザーの声を反映し、継続的な改善とアップデートを行います。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Philosophy -->
+  <section class="section" id="philosophy">
+    <div class="container">
+      <p class="section__label">Philosophy</p>
+      <h2 class="section__title">大切にしていること</h2>
+      <div class="philosophy__list">
+        <div class="philosophy__item">
+          <span class="philosophy__num">01</span>
+          <div>
+            <h3 class="philosophy__heading">シンプルであること</h3>
+            <p class="philosophy__text">複雑な機能よりも、直感的に使えるシンプルな体験を。余計なものを削ぎ落とし、本当に必要な価値を届けます。</p>
+          </div>
+        </div>
+        <div class="philosophy__item">
+          <span class="philosophy__num">02</span>
+          <div>
+            <h3 class="philosophy__heading">ユーザー目線</h3>
+            <p class="philosophy__text">開発者の都合ではなく、使う人の気持ちを第一に考えます。日常に自然と溶け込むアプリを目指しています。</p>
+          </div>
+        </div>
+        <div class="philosophy__item">
+          <span class="philosophy__num">03</span>
+          <div>
+            <h3 class="philosophy__heading">小さく、素早く</h3>
+            <p class="philosophy__text">個人の機動力を活かし、素早くプロトタイプを作り、フィードバックを反映しながら磨き上げます。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section--dark" id="contact">
+    <div class="container">
+      <p class="section__label section__label--light">Contact</p>
+      <h2 class="section__title section__title--light">お問い合わせ</h2>
+      <p class="contact__desc">アプリに関するご意見・ご感想は、<br class="pc-only">下記メールアドレスよりお気軽にお寄せください。</p>
+      <a href="mailto:support@poyokumalab.com" class="btn btn--outline">support@poyokumalab.com</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__logo">
+        <img src="logo.png" alt="Poyokuma-Lab" class="footer__logo-img">
+      </div>
+      <p class="footer__copy">&copy; 2026 Poyokuma-Lab. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
